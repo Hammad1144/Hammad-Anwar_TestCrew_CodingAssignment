@@ -1,0 +1,11 @@
+<suite name="STC TV Subscription Suite">
+    <listeners>
+            <listener class-name="utils.ExtentReportManager"/>
+    </listeners>
+
+    <test name="Subscription Validation">
+        <classes>
+            <class name="tests.SubscriptionTest"/>
+        </classes>
+    </test>
+</suite>
