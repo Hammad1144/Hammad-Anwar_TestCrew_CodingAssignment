@@ -15,8 +15,8 @@ import java.util.List;
 public class SubscriptionTest_Ar extends BaseTest {
 
     // DataProvider method that supplies test data for different Arabic-language subscription pages.
-    // Each test run will use a different country URL, expected price, and expected currenc
-    // @return A 2D array containing test data (URL, Expected Price, Expected Currency).
+    // Each test run will use a different country URL, expected price, expected package type, and expected currency
+    // @return A 2D array containing test data (URL, Expected Price, Expected Package Type, Expected Currency).
 
     @DataProvider(name = "countries")
     public Object[][] getCountries() {
@@ -30,6 +30,7 @@ public class SubscriptionTest_Ar extends BaseTest {
     // Test method that validates subscription packages using data from the DataProvider.
     // @param url - The subscription page URL.
     // @param expectedPrice - The expected subscription price.
+    // @param expectedPackage - The expected subscription package name.
     // @param expectedCurrency - The expected currency format.
 
     @Test(dataProvider = "countries")

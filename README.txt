@@ -33,7 +33,7 @@ TECHNOLOGIES USED:
 
 PROJECT STRUCTURE:
 ------------------
-TestCrew_CodingAssignment/
+Hammad-Anwar_TestCrew_CodingAssignment/
 │
 ├── src/
 │   ├── main/
@@ -66,8 +66,8 @@ INSTALLATION & SETUP:
    mvn -version
 
 3. Clone this repository:
-   git clone https://github.com/Hammad1144/TestCrew_CodingAssignment.git
-   cd TestCrew_CodingAssignment
+   git clone https://github.com/Hammad1144/Hammad-Anwar_TestCrew_CodingAssignment.git
+   cd Hammad-Anwar_TestCrew_CodingAssignment
 
 
 RUNNING THE TESTS:

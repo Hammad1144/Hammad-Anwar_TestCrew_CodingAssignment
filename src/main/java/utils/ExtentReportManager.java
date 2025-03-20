@@ -17,9 +17,9 @@ public class ExtentReportManager {
     private static ExtentTest test; // Current test instance
 
 
-
     // Initializes the Extent Report with a timestamped filename.
     // The report is stored in the "reports" directory.
+
     public static void initializeReport() {
         // Generate a timestamp for the report filename
         String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
